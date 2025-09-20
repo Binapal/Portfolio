@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bina Paul - Portfolio</title>
-  <!-- Corrected CSS path -->
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -14,6 +13,8 @@
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#experience">Experience</a>
     <a href="#contact">Contact</a>
   </nav>
 
@@ -29,6 +30,10 @@
       <strong>cybersecurity, web development, and creative solutions</strong>, I aim to build a strong career in government cybersecurity roles.
     </p>
 
+    <div class="email-badge" style="text-align:center; margin: 15px 0;">
+      <a href="mailto:paulbina84@gmail.com">📧 paulbina84@gmail.com</a>
+    </div>
+
     <div class="resume-buttons">
       <a href="assets/resume.pdf" download class="resume-btn">Download Resume</a>
       <a href="assets/resume.pdf" target="_blank" class="resume-btn view-btn">View Resume</a>
@@ -40,9 +45,31 @@
     <h2>Skills</h2>
     <div class="section-content">
       <ul>
-        <li><strong>Languages:</strong> Python, Java, HTML, CSS, JavaScript (Beginner)</li>
+        <li><strong>Languages:</strong> Python, Java, HTML, CSS, JavaScript (Beginner), C Programming</li>
         <li><strong>Security:</strong> Basics of Information Security, OWASP Top 10</li>
         <li><strong>Tools & Tech:</strong> VS Code, GitHub, Canva, Figma</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="section-content">
+      <h3>Coursera</h3>
+      <ul>
+        <li>C Programming: Getting Started 1 – 2023</li>
+        <li>C Programming Language Foundation 2 by University of Dartmouth – 2024</li>
+        <li>Introduction to Java and Object-Oriented Programming – 2025</li>
+        <li>AWS Cloud Technical Essentials – 2025</li>
+      </ul>
+
+      <h3>HackerRank</h3>
+      <ul>
+        <li>Problem Solving (Basic)</li>
+        <li>Python (Basic)</li>
+        <li>SQL</li>
+        <li>Node.js</li>
       </ul>
     </div>
   </section>
@@ -51,45 +78,92 @@
   <section id="projects">
     <h2>Projects & Internships</h2>
     <div class="projects-grid">
+
       <div class="project-card">
         <h3>Portfolio Website</h3>
         <p>A modern personal portfolio showcasing my education, skills, and projects.</p>
+        <div class="project-btn">
+          <a href="#" class="view-btn" onclick="alert('This is the one you are viewing now!')">The one you’re viewing now</a>
+        </div>
       </div>
+
       <div class="project-card">
         <h3>Campaign Management App</h3>
         <p>Internship project: PHP & MySQL based system for managing campaigns and capturing leads securely.</p>
+        <div class="project-btn">
+          <a href="assets/Digital Forensics Project Report[1].pdf" class="view-btn" target="_blank">View PDF</a>
+        </div>
       </div>
+
       <div class="project-card">
         <h3>Android Penetration Testing</h3>
         <p>Internship project: Performed testing on Android apps to identify vulnerabilities and security flaws.</p>
+        <div class="project-btn">
+          <a href="assets/Android Application Penetration Testing Report.pdf" class="view-btn" target="_blank">View PDF</a>
+        </div>
       </div>
+
       <div class="project-card">
         <h3>Phishing Campaign Manager</h3>
         <p>Internship project: Built a phishing campaign simulation and tracking tool for cybersecurity awareness.</p>
+        <div class="project-btn">
+          <a href="assets/Phising Awareness Simulation_Project1[1].pdf" class="view-btn" target="_blank">View PDF</a>
+        </div>
       </div>
+
+      <!-- New Project Added -->
+      <div class="project-card">
+        <h3>Real-time Public Transport Tracking System</h3>
+        <p><strong>Smart India Hackathon 2025</strong> | Team: Power Ranger Coder (5 members) | September 2025</p>
+        <p>
+          Developed a web app using HTML, CSS, JS, and Leaflet.js to track Guwahati buses in real-time, with JSON-based transit data, dynamic bus locations, multi-user views, and low-bandwidth optimization.
+        </p>
+        <div class="project-btn">
+          <a href="https://github.com/Binapal/Public-Transport-Tracker" class="view-btn" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="section-content">
+
+      <div class="experience-card">
+  <h3>Web Developer Intern & Cybersecurity Trainee | 1Stop</h3>
+  <p><em>June 2025 – September 2025</em></p>
+  <ul>
+    <li>Developed and maintained web-based solutions using HTML, CSS, JavaScript, and MySQL.</li>
+    <li>Assisted in designing database schemas, implementing user authentication, and integrating REST APIs.</li>
+    <li>Optimized web applications for performance and responsive design.</li>
+    <li>Completed projects on Phishing Awareness Simulation, Android Application Penetration Testing, and Digital Forensic Analysis with Autopsy.</li>
+    <li>Collaborated with senior developers and mentors to troubleshoot issues, implement new features, and understand cybersecurity best practices.</li>
+  </ul>
+</div>
+
+
     </div>
   </section>
 
   <!-- Contact Section -->
-<section id="contact">
-  <h2>Contact</h2>
-  <p style="text-align:center;">Feel free to connect with me:</p>
-  
-  <!-- Highlighted Email -->
-  <div class="email-badge">
-    <a href="mailto:paulbina84@gmail.com">📧 paulbina84@gmail.com</a>
-  </div>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p style="text-align:center;">Feel free to connect with me:</p>
 
-  <!-- Social Links -->
-  <div class="socials">
-    <a href="https://www.linkedin.com/in/bina-paul" target="_blank">🔗 LinkedIn</a>
-    <a href="https://github.com/Binapal" target="_blank">💻 GitHub</a>
-    <a href="https://www.hackerrank.com/profile/paulbina84" target="_blank">👨‍💻 HackerRank</a>
-    <a href="https://www.instagram.com/bin_naa_/" target="_blank">📸 Instagram</a>
-    <a href="https://www.facebook.com/share/1JA8C9FCU6/" target="_blank">📘 Facebook</a>
-  </div>
-</section>
+    <div class="email-badge">
+      <a href="mailto:paulbina84@gmail.com">📧 paulbina84@gmail.com</a>
+    </div>
 
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/bina-paul" target="_blank">🔗 LinkedIn</a>
+      <a href="https://github.com/Binapal" target="_blank">💻 GitHub</a>
+      <a href="https://www.hackerrank.com/profile/paulbina84" target="_blank">👨‍💻 HackerRank</a>
+      <a href="https://www.instagram.com/bin_naa_/" target="_blank">📸 Instagram</a>
+      <a href="https://www.facebook.com/share/1JA8C9FCU6/" target="_blank">📘 Facebook</a>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer>
